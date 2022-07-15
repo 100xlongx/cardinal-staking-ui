@@ -1063,8 +1063,9 @@ function Home() {
               </div>
             </div>
 
-            <div className="mt-2 flex items-center justify-between gap-5">
-              {!stakePoolMetadata?.receiptType && !showFungibleTokens ? (
+            <div className="mt-2 flex items-center justify-between">
+              {/* {!stakePoolMetadata?.receiptType && !showFungibleTokens ? ( */}
+              {false ? (
                 <MouseoverTooltip
                   title={
                     receiptType === ReceiptType.Original
